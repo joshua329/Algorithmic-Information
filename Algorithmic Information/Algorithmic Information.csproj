@@ -125,6 +125,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Data sources\Sites Segmentations\Australia\News-sites.txt" />
     <Content Include="Database\Login.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -134,8 +135,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data sources\Sites Segmentations\Australia\" />
-    <Folder Include="Data sources\Sites Segmentations\NewFolder1\" />
+    <Folder Include="Data sources\Sites Segmentations\United States\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

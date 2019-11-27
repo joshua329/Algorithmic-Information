@@ -10,7 +10,7 @@ namespace Algorithmic_Information.src
     class Main {
         public Thread NewsInfo;
         public void Start() {
-            NewsInfo = new Thread(new Data_sources.NewsSites.);
+            NewsInfo = new Thread(new Algorithmic_Information.Data_sources.NewsSites().Start);
         }
     }
 }
